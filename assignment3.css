@@ -1,0 +1,304 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+}
+
+.h-two{
+display: flex;
+gap: 20px;
+}
+.pp{
+    color: #3d27bd;
+}
+.h-two button{
+    background-color: #6857c7;
+    color: white;
+    border: none;
+    padding: 10px 10px;
+}
+.Main{
+    background-color: #7C4EE4;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 130px;
+}
+.Main-right img{
+    width: 400px;
+    height: 300px;
+    border-radius: 12px;
+}
+.Main-left {
+    width: 500px;
+    color: white;
+}
+.Main-left button{
+    padding: 20px 20px;
+}
+.Main-left p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: small
+}
+.ninka img{
+    width: 1000px;
+    height: 500px
+}
+.ninka{
+    margin-top: 20px;
+    margin-left: 100px;
+    position: relative;
+    width: 1232px;
+    height: 596px;
+    Width: 1432px;
+    border: 1px;
+    border-radius: 3px;
+
+
+}
+.ninka-child{
+    position: absolute;
+    background-color: white;
+    width: 650px;
+    /* height: 280px; */
+    bottom: -19px;
+    right: 414px;
+    padding: 30px;
+}
+.ninka-child button{
+    margin-top: 20px;
+    color:#6857c7 ;
+    background-color: transparent;
+    border: #6857c7, 2px, solid;
+    padding: 10px;
+}
+.ninka-child p{
+    font-family: 2px;
+    color: #666666;
+    margin-top: 10px;
+}
+.ninka-child span{
+    color: #999999;
+padding: 20px;
+}
+.Our{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.Our button{
+    background-color: #6857c7;
+    color: white;
+    border: none;
+    padding: 10px 10px;
+}
+.ku-celis{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+    padding: 20px;
+    gap: 20px;
+    
+}
+.ku-celis2 button{
+    background-color: #6857c7;
+    color: white;
+    border: none;
+    padding: 10px 10px;
+    margin-top: 50px;
+}
+.ku-celis2 span{
+    color: #999999;
+    padding: 20px;
+}
+.ku-celis2 p{
+    color: #666666;
+    margin-top: 10px;
+}
+.ku-celis1 img{
+width:700px;
+}
+.swro{
+    display: flex;
+    gap: 50px;
+    padding: 50px;
+    /* height: 550px; */
+    
+}
+
+.swr1{
+    width: 300px;
+    height: 500px;
+    padding: 20px;
+    margin-top: 10px;
+}
+.swr1 img{
+    width: 290px;
+    height: 390px; 
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.swr1 span{
+    color: #999999;
+    padding: 20px;
+}
+.swr1 p{
+    font-size: smaller;
+    color: #666666;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3,300px);
+    margin: 20px;
+    padding: 20PX;
+    gap: 20px;
+    margin-top: 20%;
+}
+
+.Main-last{
+    margin-top: 20px;
+    padding: 20px;
+    padding-top: 80px;
+    text-align: center;
+    height: 200px;
+    background-color: #7C4EE4;
+    color: white;
+}
+.saqir button{
+    background-color: transparent;
+    color: white;
+    padding: 5px 40px;
+}
+.saqir input{
+    padding: 5px 40px;
+}
+.Main-last p{
+    font-size: smaller;
+    color: #BBBBBB;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.footer{
+    margin-top: 10px;
+    padding: 20px;
+    padding-top: 80px;
+    text-align: center;
+    height: 200px;
+    border-bottom: #7C4EE4 solid 3px;
+}
+.footer ul{
+    display: flex;
+    gap: 40px;
+    list-style: none;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.icon-footer{
+   display: flex;
+   justify-content: center;
+   gap: 20px;
+    padding: 50px;
+    color: #7C4EE4;
+} 
+
+.header i{
+    display: none;
+}
+
+@media screen and (max-width:600px){
+    .h-two{
+        display: none;
+    }
+   .header{
+    padding: 10px;
+   }
+   .header i{
+    font-size: 60px;
+    display: block;
+}
+.Main{
+    padding: 10px;
+    height: 600px;
+    flex-direction: column;
+    font-size: 15px;
+}
+
+.Main-right img{
+    width: 350px;
+    height: 250px;
+}
+
+.Main-left {
+    width: 850px;
+    height: 350px;
+    padding-bottom: 20px;
+}
+.Main-left p{
+    font-size: 15px;
+}
+.ninka{
+    margin-left: 10px;
+    height: 500px;
+}
+.ninka img{
+    width: 350px;
+    height: 400px;
+}
+.ninka-child{
+    width: 300px;
+    height: 300px;
+    bottom: -19px;
+    left: 40px;
+    margin-bottom: 10px;
+   
+}
+.ku-celis{
+    flex-direction: column;
+}
+.ku-celis1 img{
+    width: 300px;
+    height: 300px;
+}
+.swro{
+    flex-direction: column;
+    margin-bottom: 50px;
+    width: 200px;
+    height: 1800px;
+    padding: 10px;
+}
+
+.Our{
+    flex-direction: column;
+}
+.grid{
+    grid-template-columns: none;
+}
+.Main-last{
+    margin-top: 10px;
+    padding: 20px;
+    padding-top: 80px;
+    text-align: center;
+    height: 300px;
+    gap: 10px;
+}
+.saqir{
+    margin: 20px;
+    gap: 10px;
+}
+
+
+
+
+
+
+}
+
